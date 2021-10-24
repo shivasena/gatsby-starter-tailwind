@@ -6,5 +6,10 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `GatsbyJS 4 Tailwind CSS Starter`,
+    description: `Preconfigured Tailwind CSS Starter for GatsbyJS Website`,
+    author: `@shivasena`,
+  },
+  plugins: [`gatsby-plugin-postcss`],
 }
